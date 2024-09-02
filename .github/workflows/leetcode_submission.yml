@@ -14,7 +14,7 @@ on:
   
   # using cron to schedule the task 
   schedule:
-    - cron: '30 15 * * *'  # Runs daily 
+    - cron: '40 23 * * *'  # Runs daily 
 
 jobs:
   run_script:
